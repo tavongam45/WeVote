@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
     tools:context=".MainActivity">
 
     <EditText
@@ -26,13 +27,13 @@
         android:id="@+id/passworDtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="password"
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
         android:layout_marginBottom="436dp"
         android:ems="10"
+        android:hint="password"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
